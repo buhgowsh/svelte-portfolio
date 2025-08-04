@@ -7,12 +7,12 @@
       Florida!
     </p>
     <div>
-      <a class="" href="https://www.linkedin.com/in/josh-sawyer-b765ab255/">
+      <a class="" href="https://www.linkedin.com/in/josh-sawyer-b765ab255/" target="_blank">
         <!-- <img src=""> -->
         <!-- Use this ^^^ -->
         LinkedIn
       </a>
-      <a class="" href="https://github.com/buhgowsh">
+      <a class="" href="https://github.com/buhgowsh" target="_blank">
         <!-- <img src=""> -->
         <!-- Use this ^^^ -->
         GitHub

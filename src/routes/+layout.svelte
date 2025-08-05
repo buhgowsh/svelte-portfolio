@@ -1,12 +1,12 @@
 <script lang="ts">
   import "../app.css";
-  import favicon from "$lib/assets/favicon.svg";
+  import glorp from "$lib/assets/glorp.jpg";
 
   let { children } = $props();
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
+  <link rel="icon" href={glorp} />
   <title>Josh Sawyer</title>
 </svelte:head>
 

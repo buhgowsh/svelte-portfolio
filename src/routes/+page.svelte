@@ -12,21 +12,15 @@
       </p>
 
       <!-- Links to socials combined to fit in a single line -->
-      <div>
-        <a class="" href="https://www.linkedin.com/in/josh-sawyer-b765ab255/" target="_blank">
-          <!-- <img src=""> -->
-          <!-- Use this ^^^ -->
-          LinkedIn
+      <div class="flex flex-row mx-auto">
+        <a class="hover:motion-preset-shake px-5" href="https://www.linkedin.com/in/josh-sawyer-b765ab255/" target="_blank">
+          <img class="h-15 w-15 object-contain rounded" src="/icons8-linkedin.svg" alt="LinkedIn button" draggable="false">
         </a>
-        <a class="" href="https://github.com/buhgowsh" target="_blank">
-          <!-- <img src=""> -->
-          <!-- Use this ^^^ -->
-          GitHub
+        <a class="hover:motion-preset-shake px-5" href="https://github.com/buhgowsh" target="_blank">
+          <img class="h-15 w-15 rounded" src="/icons8-github.svg" alt="GitHub button" draggable="false">
         </a>
-        <a class="" href="/resume.pdf" target="_blank">
-          <!-- <img src=""> -->
-          <!-- Use this ^^^ -->
-          Resume
+        <a class="hover:motion-preset-shake px-5" href="/resume.pdf" target="_blank">
+          <img class="h-15 w-15" src="/icons8-resume.png" alt="Resume button" draggable="false">
         </a>
       </div>
     </div>
@@ -36,14 +30,16 @@
   <div
     class="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-orange-500 to-amber-400"
   >
-    <p>here's where the cards are gonna go</p>
-    <div class="max-w-sm rounded overflow-hidden hover:shadow-lg shadow-white bg-gray-100">
+  <h1 class="text-bold">Experience</h1>
+    <!-- Example card -->
+    <div class="max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none">
       <!-- <img src=""> use this once you have a pic for the card -->
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Something</div>
         <p class="text-gray-700 text-base">description of something</p>
       </div>
       <div class="px-6 pt-4 pb-2">
+        <!-- Each tag goes here -->
         <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#fax</span>
       </div>
     </div>

@@ -63,82 +63,134 @@
     <h1 class="text-5xl text-bold py-8">Projects</h1>
     <div id="cards" class="flex flex-col">
       <div id="cards first row" class="flex flex-row mx-auto">
-        <!-- Example card -->
-        <div
+        <a
+          href="/gnarpnotes"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <img src="/gnarpnotes.png" alt="Gnarpy face" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Something</div>
-            <p class="text-gray-700 text-base">description of something</p>
+            <div class="font-bold text-xl mb-2">Gnarp Notes</div>
+            <p class="text-gray-700 text-base">
+              AI learning assistant using flash cards!
+            </p>
           </div>
           <div class="px-6 pt-4 pb-2">
             <!-- Each tag goes here -->
             <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#fax</span
+              >GeminiAPI</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >React</span
             >
           </div>
-        </div>
+        </a>
 
-        <div
+        <a
+          href="/nova"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <img src="/nova.png" alt="Title Card for NOVA AI" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Something</div>
-            <p class="text-gray-700 text-base">description of something</p>
+            <div class="font-bold text-xl mb-2">N.O.V.A. AI</div>
+            <p class="text-gray-700 text-base">AI powered attention tracker!</p>
           </div>
           <div class="px-6 pt-4 pb-2">
             <!-- Each tag goes here -->
             <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#fax</span
+              >OpenAI API</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >React</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >Python</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >Matplotlib</span
             >
           </div>
-        </div>
+        </a>
 
-        <div
+        <a
+          href="/fishnet"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <img src="/fishnet.png" alt="Globe view of FishNet discovery page" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Something</div>
-            <p class="text-gray-700 text-base">description of something</p>
+            <div class="font-bold text-xl mb-2">FishNet</div>
+            <p class="text-gray-700 text-base">
+              Platform for sharing pictured of aquatic life! Built upon The
+              Coral Collection.
+            </p>
           </div>
           <div class="px-6 pt-4 pb-2">
             <!-- Each tag goes here -->
             <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#fax</span
+              >React</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >MongoDB</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >RESTful APIs</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >Mailgun</span
             >
           </div>
-        </div>
+        </a>
       </div>
 
       <div id="cards second row" class="flex flex-row mx-auto my-10">
         <!-- Example card -->
-        <div
+        <a
+          href="/coralcollection"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <img src="/coralcollection.png" alt="" />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Something</div>
-            <p class="text-gray-700 text-base">description of something</p>
+            <div class="font-bold text-xl mb-2">The Coral Collection</div>
+            <p class="text-gray-700 text-base">
+              Simple ocean-based contact manager.
+            </p>
           </div>
           <div class="px-6 pt-4 pb-2">
             <!-- Each tag goes here -->
             <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#fax</span
+              >HTML</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >PHP</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >RESTful APIs</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+              >MySQL</span
             >
           </div>
-        </div>
+        </a>
 
-        <div
+        <!-- add a place to route -->
+        <a
+          href="/"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <!-- <img src="" alt=""> use this once you have a pic for the card -->
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Something</div>
             <p class="text-gray-700 text-base">description of something</p>
@@ -150,12 +202,14 @@
               >#fax</span
             >
           </div>
-        </div>
+        </a>
 
-        <div
+        <!-- add a place to route -->
+        <a
+          href="/"
           class="mx-10 max-w-sm rounded overflow-hidden bg-gray-100 transition delay-150 duration-300 ease-in-out hover:scale-110 hover:shadow-lg shadow-white motion-reduce:transition-none motionreduce:hover:transform-none"
         >
-          <!-- <img src=""> use this once you have a pic for the card -->
+          <!-- <img src="" alt=""> use this once you have a pic for the card -->
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Something</div>
             <p class="text-gray-700 text-base">description of something</p>
@@ -167,7 +221,7 @@
               >#fax</span
             >
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>

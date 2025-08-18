@@ -125,8 +125,7 @@
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">FishNet</div>
             <p class="text-gray-700 text-base">
-              Platform for sharing pictured of aquatic life! Built upon The
-              Coral Collection.
+              Platform for sharing pictures of aquatic life that can be seen on a rendered globe!
             </p>
           </div>
           <div class="px-6 pt-4 pb-2">

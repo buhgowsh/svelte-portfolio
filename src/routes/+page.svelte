@@ -5,7 +5,7 @@
     <div class="h-screen flex flex-col justify-center items-center">
       <h1 class="text-4xl flex flex -row">Hi, my name is</h1>
       <h2 class="text-6xl md:text-7xl font-bold">Josh Sawyer</h2>
-      <p class="text-xl md:text-2xl text-justify">
+      <p class="text-xl md:text-2xl text-justify py-2">
         I'm a third year Computer Science major at the Univerity of Central
         Florida!
       </p>

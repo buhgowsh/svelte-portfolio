@@ -4,7 +4,11 @@
 @plugin 'tailwindcss-motion';
 /* @plugin 'daisyui'; */
 
-:root {
+@theme {
+    --font-chakra: "Chakra Petch", sans-serif;
+}
+
+/* :root {
     overscroll-behavior: none;
     overflow-y: hidden;
-}
+} */

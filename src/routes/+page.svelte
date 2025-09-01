@@ -3,7 +3,7 @@
   <div class="bg-gradient-to-b from-yellow-100 to-orange-500 h-screen">
     <!-- Each tag goes on its own line -->
     <div class="h-screen flex flex-col justify-center items-center">
-      <h1 class="text-4xl flex flex -row">Hi, my name is</h1>
+      <h1 class="text-4xl flex flex-row">Hi, my name is</h1>
       <h2 class="text-6xl md:text-7xl font-bold">Josh Sawyer</h2>
       <p class="text-xl md:text-2xl text-justify py-2">
         I'm a third year Computer Science major at the Univerity of Central
@@ -13,7 +13,7 @@
       <!-- Links to socials combined to fit in a single line -->
       <div class="flex flex-row mx-auto">
         <a
-          class="hover:-motion-rotate-loop-10 hover:motion-duration-1000 px-5"
+          class="hover:-motion-rotate-loop-10 hover:motion-duration-1000 px-5 motion-reduce:transition-none motionreduce:hover:transform-none"
           href="https://www.linkedin.com/in/josh-sawyer-b765ab255/"
           target="_blank"
         >
@@ -26,7 +26,7 @@
         </a>
 
         <a
-          class="hover:motion-rotate-loop-10 hover:motion-duration-1000 px-5"
+          class="hover:motion-rotate-loop-10 hover:motion-duration-1000 px-5 motion-reduce:transition-none motionreduce:hover:transform-none"
           href="https://github.com/buhgowsh"
           target="_blank"
         >
@@ -39,7 +39,7 @@
         </a>
 
         <a
-          class="hover:motion-rotate-loop-10 hover:motion-duration-1000 px-4"
+          class="hover:motion-rotate-loop-10 hover:motion-duration-1000 px-4 motion-reduce:transition-none motionreduce:hover:transform-none"
           href="/resume.pdf"
           target="_blank"
         >
@@ -94,7 +94,7 @@
           />
           <div class="px-6 py-4">
             <div class="font-bold text-xl md:text-3xl mb-2">Gnarp Notes</div>
-            <p class="text-lg md:text-xl text-gray-700 text-base">
+            <p class="text-lg md:text-xl text-gray-700">
               AI learning assistant using flash cards, and downloadable as a
               PowerPoint file!
             </p>
@@ -127,13 +127,13 @@
           />
           <div class="px-6 py-4">
             <div class="font-bold text-xl md:text-3xl mb-2">N.O.V.A. AI</div>
-            <p class="text-lg md:text-xl text-gray-700 text-base">
+            <p class="text-lg md:text-xl text-gray-700">
               AI powered attention tracker!
             </p>
             <div
               class="text-lg md:text-xl -mx-6 mb-3 text-center py-1 px-1 my-1 tracking-wider bg-clip-border bg-amber-300"
             >
-              Won Best Design @ Hack@USF 2025!
+              Won Best Design @ HackUSF 2025!
             </div>
           </div>
           <div class="px-6 pt-4 pb-2">
@@ -172,9 +172,8 @@
           />
           <div class="px-6 py-4">
             <div class="font-bold text-xl md:text-3xl mb-2">FishNet</div>
-            <p class="text-lg md:text-xl text-gray-700 text-base">
-              Platform for sharing pictured of aquatic life! Built upon The
-              Coral Collection.
+            <p class="text-lg md:text-xl text-gray-700">
+              Platform for sharing pictures of aquatic life!
             </p>
           </div>
           <div class="px-6 pt-4 pb-2">
@@ -217,7 +216,7 @@
             <div class="font-bold text-xl md:text-3xl mb-2">
               The Coral Collection
             </div>
-            <p class="text-lg md:text-xl text-gray-700 text-base">
+            <p class="text-lg md:text-xl text-gray-700">
               Simple ocean-based contact manager.
             </p>
           </div>
@@ -253,7 +252,7 @@
           />
           <div class="px-6 py-4">
             <div class="font-bold text-xl md:text-3xl mb-2">Portfolio Site</div>
-            <p class="text-lg md:text-xl text-gray-700 text-base">
+            <p class="text-lg md:text-xl text-gray-700">
               The portfolio itself.
             </p>
           </div>
@@ -271,8 +270,9 @@
         </a>
       </div>
     </div>
-    <footer class="relative bottom-1 text-center">
+
+    <!-- <footer class="relative bottom-1 text-center">
       Made with ❤️ from Josh Sawyer - Icons from Icons8
-    </footer>
+    </footer> -->
   </div>
 </div>

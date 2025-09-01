@@ -1,11 +1,15 @@
-<main class="bg-slate-900">
+<div class="bg-slate-900 font-chakra">
   <div
     class="min-h-screen w-full bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] p-2 sm:p-4 flex flex-col items-center text-white"
   >
-    <img src="/gnarpy.png" alt="Gnarpy Icon"/>
-    <h1 class="font-chakra text-3xl sm:text-4xl md:text-5xl font-bold drop-shadow-[0px_0px_30px_rgba(0,204,255,1)] text-cyan-300 mt-4">Gnarp Notes</h1>
+    <img src="/gnarpy.png" alt="Gnarpy Icon" />
+    <h1
+      class="sm:text-4xl md:text-6xl font-bold drop-shadow-[0px_0px_30px_rgba(0,204,255,1)] text-cyan-300 mt-4"
+    >
+      Gnarp Notes
+    </h1>
 
-    <p class="font-chakra mx-20 text-purple-200">
+    <p class="sm:text-lg md:text-xl sm:mx-20 md:mx-40 text-purple-200">
       Gnarp Notes is a study tool that takes in PDF files from users and
       converts them into flash cards using the Google GeminiAPI, with an option
       to download the generated flash cards as a PowerPoint to use to study
@@ -18,4 +22,4 @@
       took most of the time I had.
     </p>
   </div>
-</main>
+</div>

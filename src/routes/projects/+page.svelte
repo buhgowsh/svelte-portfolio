@@ -7,11 +7,11 @@
 
 <!-- Start of the projects section, filled with cards -->
 <div
-  class="flex flex-col justify-center items-center bg-gradient-to-b from-orange-500 to-amber-400 h-screen"
+  class="grid grid-flow-row-dense justify-center bg-gradient-to-b from-orange-500 to-amber-400 bg-auto"
 >
-  <h1 class="text-black text-4xl md:text-6xl text-bold py-8">Projects</h1>
-  <div id="cards" class="flex flex-col">
-    <div id="cards first row" class="flex flex-row mx-auto">
+  <h1 class="text-black text-4xl flex flex-row justify-center md:text-6xl text-bold py-8">Projects</h1>
+  <div id="cards" class="">
+    <div id="cards first row" class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 grid-flow-row-dense gap-4 mx-auto">
       <!-- Loop through each index of the array, making a card for each entry -->
       {#each projects as cardData}
         <Card details={cardData} />

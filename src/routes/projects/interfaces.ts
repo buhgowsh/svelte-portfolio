@@ -6,5 +6,6 @@ export interface CardData {
         overview: string,
         modalID: string,
         description: string[],
-        win?: string
+        win?: string,
+        font: string,
     }

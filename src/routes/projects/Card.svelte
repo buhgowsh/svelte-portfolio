@@ -35,7 +35,7 @@
     <!-- Loop through each entry of the nested tag array, adding a tag for each entry -->
     {#each details.tags as tag}
       <span
-        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm md:text-md lg:text-xl font-semibold text-gray-700 mr-2 mb-2"
+        class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm md:text-md lg:text-lg font-semibold text-gray-700 mr-2 mb-2"
         >{tag}</span
       >
     {/each}
@@ -45,10 +45,10 @@
 <!-- Modal box that appears once the card is clicked on -->
 <dialog id={details.modalID} class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
-    <h3 class="text-lg font-bold">Hello!</h3>
+    <h3 class="{details.font} text-lg font-bold flex justify-center">Hello!</h3>
     <!-- Same loop style as tags, but now for the modal box with just text in each entry -->
     {#each details.description as description}
-      <p class="text-gray-700 text-base py-4">{description}</p>
+      <p class="{details.font} text-gray-700 text-base py-4">{description}</p>
     {/each}
   </div>
   <form method="dialog" class="modal-backdrop">

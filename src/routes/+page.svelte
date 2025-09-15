@@ -1,6 +1,6 @@
 <div id="wrapper">
   <!-- Introduction and links to socials as first screen -->
-  <div class="bg-gradient-to-b from-yellow-100 to-orange-500 h-screen">
+  <div class="bg-gradient-to-b from-yellow-100 to-orange-500 h-screen overflow-hidden">
     <!-- Each tag goes on its own line -->
     <div class="h-screen flex flex-col justify-center items-center">
       <h1 class="text-black text-4xl flex flex-row">Hi, my name is</h1>

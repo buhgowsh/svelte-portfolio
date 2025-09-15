@@ -45,11 +45,19 @@
 <!-- Modal box that appears once the card is clicked on -->
 <dialog id={details.modalID} class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
-    <h3 class="{details.font} text-lg font-bold flex justify-center">Hello!</h3>
+    <h3 class="{details.font} text-lg font-bold flex justify-center">{details.title}</h3>
+    <!-- Section for pictures -->
+     {#if details.images}
+      {#each details.images as image}
+        <img src={image} alt="An overview of {details.title}" />
+      {/each}
+     {/if}
     <!-- Same loop style as tags, but now for the modal box with just text in each entry -->
     {#each details.description as description}
-      <p class="{details.font} text-gray-700 text-base py-4">{description}</p>
+      <p class="{details.font} text-white-700 text-base py-4">{description}</p>
     {/each}
+    <!-- Section for groupmate's LinkedIn -->
+     <!-- Link to project website or GitHub repo -->
   </div>
   <form method="dialog" class="modal-backdrop">
     <button>Close</button>

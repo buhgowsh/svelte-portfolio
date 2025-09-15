@@ -8,4 +8,5 @@ export interface CardData {
         description: string[],
         win?: string,
         font: string,
+        images?: string[]
     }

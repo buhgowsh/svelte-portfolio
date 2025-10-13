@@ -46,11 +46,19 @@
 <dialog id={details.modalID} class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
     <h3 class="{details.font} text-lg font-bold flex justify-center">{details.title}</h3>
-    <!-- Section for pictures -->
+    <!-- Section for pictures and/or videos -->
      {#if details.images}
+     <div class="carousel w-full">
       {#each details.images as image}
-        <img src={image} alt="An overview of {details.title}" />
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src={image} alt="An picture for {details.title}" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
       {/each}
+      </div>
      {/if}
     <!-- Same loop style as tags, but now for the modal box with just text in each entry -->
     {#each details.description as description}

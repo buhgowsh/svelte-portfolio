@@ -7,8 +7,10 @@ import type { CardData } from "./interfaces";
 //     overview: "",
 //     tags: ["",],
 //     modalID: "",
-//     description: ["",]
-//     win: "" (only if project won something)
+//     description: ["",],
+//     win: "", (only if project won something)
+//     font: "",
+//     images: ["",],
 // }
 
 export const projects: CardData[] = [
@@ -23,6 +25,9 @@ export const projects: CardData[] = [
             "Gnarp Notes is a study tool that takes in PDF files from users and converts them into flash cards using the Google GeminiAPI, with an option to download the generated flash cards as a PowerPoint to use to study later. This was a solo hackathon project that I created during Gemiknights, an AI focused hackathon hosted by Knight Hacks at UCF. The overall design of the project went through a couple iterations, but the core theme of Gnarpy the alien cat stayed the same. Converting the flash cards into a downloadable PowerPoint was the most challenging part of the project, since finding and implementing the library I used (pptxgenjs) took most of the time I had.",
         ],
         font: "font-chakra",
+        images: [
+            "",
+        ],
     },
     {
         src: "/nova.png",
@@ -37,6 +42,9 @@ export const projects: CardData[] = [
         ],
         win: "Won Best Design @ HackUSF 2025!",
         font : "",
+        images: [
+            "",
+        ],
     },
     {
         src: "/fishnet.png",
@@ -51,6 +59,9 @@ export const projects: CardData[] = [
             "One aspect of the project that gave us trouble while FishNet was in development was implementing email verification for our registered users. This gave my team and I trouble mainly because we were not aware of the tools we ended up using for sending automated emails. Additionally, the tool outlined in class, SendGrid, was giving us a lot of trouble. I ended up picking up email verification, and I implemented it using Mailgun, which I found after searching around for a while, and after adding a few RESTful APIs to handle the emails, email verification was setup.",
         ],
         font : "",
+        images: [
+            "",
+        ],
     },
     {
         src: "/coralcollection.png",
@@ -63,5 +74,8 @@ export const projects: CardData[] = [
             "The Coral Collection was a very simple contact manager that had an aquatic theme to it. The MySQL database was extremely simple, with only two tables: one for registered users and one for contacts added by users. RESTful calls to the database were done using PHP. I was in charge of the database, and made some of the APIs.",
         ],
         font: "",
+        images: [
+            "",
+        ],
     },
 ]

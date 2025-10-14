@@ -1,5 +1,5 @@
 <script>
-  import { projects } from "./ProjectData";
+  import { projects } from "./CardData";
   import Card from "./Card.svelte";
 </script>
 

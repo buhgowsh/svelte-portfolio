@@ -26,7 +26,7 @@ export const projects: CardData[] = [
         ],
         font: "font-chakra",
         images: [
-            "",
+            "/gnarpnotes.png",
         ],
     },
     {
@@ -43,7 +43,7 @@ export const projects: CardData[] = [
         win: "Won Best Design @ HackUSF 2025!",
         font : "",
         images: [
-            "",
+            "/nova.png",
         ],
     },
     {
@@ -60,7 +60,7 @@ export const projects: CardData[] = [
         ],
         font : "",
         images: [
-            "",
+            "/fishnet.png",
         ],
     },
     {
@@ -75,7 +75,7 @@ export const projects: CardData[] = [
         ],
         font: "",
         images: [
-            "",
+            "/coralcollection.png",
         ],
     },
 ]

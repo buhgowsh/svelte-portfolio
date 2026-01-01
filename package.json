@@ -38,6 +38,7 @@
 		"vitest-browser-svelte": "^0.1.0"
 	},
 	"dependencies": {
+		"p5-svelte": "^3.1.2",
 		"tailwindcss-motion": "^1.1.1"
 	}
 }
